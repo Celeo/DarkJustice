@@ -1,0 +1,14 @@
+name: DarkJustice
+author: Celeo
+version: 0.2.3.3
+website: http://darktidegames.com/
+description: Plugin for managing everything law-oriented.
+main: com.darktidegames.celeo.DarkJustice
+depends: [bPermissions, Empyrean]
+commands:
+  darkjustice:
+    usage: /<command>
+    description: Other plugin commands.
+  dj:
+    usage: /<command>
+    description: Other plugin commands.

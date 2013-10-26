@@ -1,0 +1,26 @@
+Permission:
+  adminNode: dj.admin
+  modNode: dj.mod
+  watchGroup: watch
+ChatThrottle:
+  throttleGroups:
+  - nomad
+  - watch
+  throttleTime: 500
+  maxSpamMessages: 50
+watchList: []
+FileLogging:
+  logCommands:
+  - kick
+  - ban
+  - tempban
+  - unban
+  - pardon
+  - banip
+  - pardonip
+  - unbanip
+  - mute
+  - gmute
+jail:
+  jailed: []
+  jailLocation: world,0,0,0
